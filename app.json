@@ -1,0 +1,18 @@
+{
+  "name": "file2link-bot",
+  "description": "ربات تبدیل فایل به لینک تلگرام (فایل‌ها روی سرور تلگرام ذخیره می‌شوند)",
+  "repository": "https://github.com/yourusername/file2link-bot",
+  "env": {
+    "BOT_TOKEN": {
+      "description": "توکن ربات از BotFather",
+      "required": true
+    }
+  },
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "free"
+    }
+  },
+  "stack": "heroku-22"
+}
